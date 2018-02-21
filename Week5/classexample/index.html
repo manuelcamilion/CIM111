@@ -8,8 +8,21 @@
     <meta name="author" content="Manuel Camilion">
     <meta name="keywords" content="resume, education, work">
     <meta name="description" content="This website is about me.">
-    <link rel="stylesheet" href ="css/desktop.css">
+    <link rel="stylesheet" href ="css/desktop.css" media="only screen and (min-width: 960px)">
+    <link rel="stylesheet" href="css/mobile.css" media ="only screen and (max-width:959px)">
+    <meta name="viewport" content="initial-scale=1">
     <style>
+   /* @media screen and (min-width: 960px){
+      body{
+        background-color:green;
+      }
+    }
+
+    @media screen and (max-width:600px){
+      body{
+        background-color:orange;
+      }
+    } */
     </style>
 
   </head>
@@ -17,11 +30,11 @@
 
   <body>
 
-    <header id="moveUp">
+    <header class="moveUp">
 
-      <h1 id="centerText">Manuel Camilion - Resume</h1>
+      <h1 class="centerText">Manuel Camilion - Resume</h1>
 
-      <address id="centerText">
+      <address class="centerText">
         1101 Brunson Dr <br>
         Miami, FL<br>
       </address>
@@ -39,18 +52,15 @@
     <main>
 
     <section>
-      <h1>About Me</h1>
-    </section>
-
+      <h2>About Me</h2>
     <img src="Images/Picture.jpg" width =300>
 
     <p>My name is <span class="titles"> Manuel Camilion</span>, and I am a Film Director. I work with actors, producers, crew, and drink way too much caffeine. <br> Currently, I am in my third year studying Motion Pictures at the University of Miami. I have worked in big productions ranging <br>from Horror to Drama, and am looking to find more stories to tell.
 
-<br>
-<br>
+  </section>
 
       <section>
-        <h1 class= "underline">Work Experience</h1>
+        <h2 id="underline">Work Experience</h2>
 
         <h3> Novecento</h3>
         <p class="greyout"><i>Busser</i></p>
@@ -60,7 +70,7 @@
           </ul>
 <!-- This is a comment!-->
         <h3>Borscht Film Corporation</h3>
-        <p class="greyout"><i>Intern</i></p>
+        <p class="greyout italics">Intern</p>
           <ul>
             <li>Attending to phone in order to get donations for film production</li>
             <li>Location scouting experience</li>
@@ -68,12 +78,8 @@
       </section>
 
 
-
-<br>
-<br>
-
       <section>
-        <h1>Hobbies</h1>
+        <h2>Hobbies</h2>
         <ol>
           <li>Reading</li>
           <li>Writing</li>
@@ -83,56 +89,55 @@
         </ol>
       </section>
 
-<br>
+
 
       <section>
-        <h1>Film Projects</h1>
+        <h2>Film Projects</h2>
 
       <div class="work">
         <h3>The Fortune Teller</h3>
-        <h5><i>Director</i></h5>
+        <h5 class="italics">Director</h5>
         <p>On the last day before the world is destroyed by a comet, the Fortune Teller who predicted it is visited by a man in search of his purpose. Spending their final day in each other's company, they both manage to find their reason for being there.</p>
       </div>
 
       <div class="work">
         <h3>Scruffy Rex and the Mummy's Tomb</h3>
-        <h5><i>Director</i></h5>
+        <h5 class="italics">Director</h5>
         <p>A gang of kids sneaks into their highschool on halloween night to steal some test answers. Little do they know that this will be the night of their doom.</p>
       </div>
 
       <div class="work">
         <h3>Haunted! The Motion Picture</h3>
-      <h5><i>Director</i></h5>
+      <h5 class="italics">Director</h5>
         <p>On a date night when Harry brings a girl home, he must prove to her that his house is in fact <i>not</i> haunted in order to get her to stay the night.</p>
       </div>
 
       <div class="work">
         <h3>Fresh Meat</h3>
-        <h5><i>Director</i></h5>
+        <h5 class="italics">Director</h5>
         <p>A short film about a mobster and his boss deciding which goon they're going to whack.</p>
       </div>
 
       <div class="work">
         <h3>Meme Boy</h3>
-        <h5><i> Executive Producer, Producer, Director</i></h5>
+        <h5 class="italics">Executive Producer, Producer, Director</h5>
         <p>A web series about a guy named Elmer who, over one night, accidentally becomes a popular internet meme. Now obsessed with escaping the notoriety of his image, Elmer tries to find new ways to replace his internet fame.</p>
       </div>
 
       <div class="work">
         <h3>Sell Your Soul</h3>
-        <h5><i>Director</i></h5>
+        <h5 class="italics">Director</h5>
         <p>An infomercial where Lucifer attempts to convince audience members to sell your soul to them</p>
 
       </div>
 
 
+
       </section>
 
-<br>
-<br>
 
       <section>
-        <h1> Table</h1>
+        <h2> Table</h2>
 
         <table border ="1" width= "400">
           <tr>
@@ -155,6 +160,7 @@
   </body>
 
   <footer>
+    &copy; 2018
   </footer>
 
 </html>

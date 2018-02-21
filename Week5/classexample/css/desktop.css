@@ -3,11 +3,11 @@
 
 body{
   font-family: 'Bellefair', sans-serif;
-  background-color: maroon;
+  background-color: rgb(201,255,255);
 }
 
 header{
-  background-color: lightyellow;
+  background-color: white;
   width: 1320px;
   margin: 0 auto;
 }
@@ -15,9 +15,11 @@ header{
 
 h1{
     font-family: 'Roboto Slab', sans-serif;
+    color: rgb(255, 13, 51);
 }
 h2{
   font-family: 'Roboto Slab', sans-serif;
+  color: rgb(255, 13, 51);
 }
 
 h3{
@@ -29,13 +31,14 @@ h5{
 
 p{
   font-family: 'Bellefair', sans-serif;
+  font-size: 16px;
 }
 
 main{
   background-color: white;
   width: 1300px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 500px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -87,10 +90,20 @@ section{
   margin-bottom: 100px;
 }
 
+section h2{
+  width:1280px;
+  height: 50px;
+  background-color: rgb(207,204,204);
+  padding: 10px;
+}
+
+.italics {
+  font-style: italic;
+}
+
 .greyout{
   color: grey;
 }
-
 
 .bumpUp{
   margin-top: -250px;
@@ -114,14 +127,15 @@ section{
   color: blue;
 }
 
-.underline{
+#underline{
   text-decoration: underline;
 }
+
 
 #moveUp{
   margin-top: -25px;
 }
-#centerText{
+.centerText{
   text-align: center;
 }
 
