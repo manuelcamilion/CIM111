@@ -1,0 +1,58 @@
+@import "desktop.css";
+
+
+header{
+  height: 82px;
+}
+
+nav{
+
+}
+
+nav ul{
+
+}
+
+nav ul li img{
+  width:9 0px;
+
+}
+
+#titlePage{
+  font-size: 70px;
+  top:-700px;
+}
+
+#subText{
+  font-size: 30px;
+  top:-720px;
+}
+
+#page-bg{
+  top:-100px;
+}
+
+#aboutMe{
+  top: -520px;
+  left: -300px;
+}
+
+p{
+  top: -600px;
+  left: -100px;
+}
+
+#moveRight{
+   margin-left: -8px;;
+   height:850px;
+
+}
+
+.PortfolioGrid{
+  grid-template-columns:500px;
+  grid-template-rows:400px 400px 400px 400px 400px 400px;
+}
+
+.headings{
+
+}

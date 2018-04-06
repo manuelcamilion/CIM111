@@ -1,0 +1,17 @@
+.content{
+  background: pink;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  padding: 15px;
+}
+
+.content-one{
+  background:purple;
+}
+
+
+nav{
+  width: 600px;
+  margin: auto;
+}
