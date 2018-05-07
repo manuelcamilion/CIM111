@@ -1,0 +1,181 @@
+
+
+
+body{
+  background-color: white;
+  margin-bottom: -400px;
+}
+
+main{
+  background-color: rgb(23, 23, 23);
+  margin-left: 200px;
+  width: 1480px;
+  margin-bottom: 100px;
+}
+
+header{
+  margin-top:-16px;
+  margin-left: -10px;
+  margin-right: -8px;
+  height: 100px;
+  width: auto;
+  background-color: rgb(23, 23, 23);
+}
+
+h1{
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  position: relative;
+  top: px;
+
+
+}
+
+h2{
+  color: white;
+  font-size: 50px;
+  text-align: left;
+  margin-left: 30px;
+  letter-spacing:6px;
+  position: relative;
+  top: -50px;
+  line-height: 20px;
+}
+
+h3{
+  color:white;
+  position: relative;
+  top: -80px;
+  margin-left: 70px;
+  line-height: 10px;
+}
+
+#myVideo{
+  position:relative;
+  top: -565px;
+  margin-left: -8px;
+  margin-top: -150px;
+  z-index: -1;
+}
+
+
+header nav{
+text-align: center;
+position: relative;
+top: 10px;
+}
+
+header nav ul{
+}
+
+header nav ul li{
+    margin-top: 30px;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 30px;
+  color: white;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+header nav ul li a:hover{
+  background-color: lightblue;
+}
+
+.whiteSpace{
+  width: 1915px;
+  height:50px;
+  background-color: white;
+  position: absolute;
+  top: 949px;
+  margin-left: -20px;
+}
+
+
+
+main nav{
+  position: absolute;
+  top: 987px;
+
+
+
+ }
+main nav ul{
+  display: inline-grid;
+
+}
+main nav ul li{
+  list-style: none;
+  margin-left: -43px;
+
+}
+
+main nav ul li img{
+  text-decoration: none;
+  position: relative;
+  width: 473px;
+  height: auto;
+    margin-bottom: -282px;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+main nav ul li img:hover{
+  position: relative;
+  -webkit-filter: blur(8px) opacity(50%);
+  overflow: hidden;
+}
+
+h4{
+  position: relative;
+  font-size: 50px;
+  top: -150px;
+  left: 40px;
+  color: white;
+  z-index: 500
+  margin-bottom:-60px;
+  margin-right: 37px;
+}
+main p{
+  position: relative;
+  font-size: 30px;
+  top: -500px;
+  left: 340px;
+  color: white;
+  z-index: 500;
+  margin-bottom: -470px;
+  margin-right: 150px;
+}
+
+
+.grid{
+  display: inline-grid;
+  grid-template-areas: "h2 h2 h2 h2 h2"
+  grid-template-columns: 740 740;
+  grid-template-rows: 1465;
+}
+
+h6{
+  margin-bottom: -50px;
+  color: white;
+  font-size: 25px;
+  margin-left: 800px;
+  margin-top: 20px;
+  position: absolute;
+  top: 1975px;
+  left: 10px;
+
+}
+
+footer{
+  background-color: rgb(23, 23, 23);
+  height: 100px;
+  width: 1935px;
+  margin-left: -40px;
+  margin-top: -40px;
+
+}

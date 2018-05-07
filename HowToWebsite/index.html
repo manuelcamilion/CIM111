@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>How to Make French Toast</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <style>
+
+    .box{
+      width: 100px;
+      height: 100px;
+      background-color: lightblue;
+    }
+
+    </style>
+
+  </head>
+  <body>
+    <main>
+
+      <div id="click" class="box">Click Here to Show Ingredient List</div>
+
+      <br>
+      <div id="clickHide" class="box">Click Here to Hide Ingredient List</div>
+      <br>
+
+      <button id="button1">Step 1</button>
+      <button id="button2">Step 2</button>
+      <button id="button3">Step 3</button>
+
+      <br>
+
+      <div id="hover" class="box">Hover Here to Show Final Product</div>
+
+      <div id="reveal"></div>
+      <div id="replace"></div>
+
+    </main>
+
+    <script>
+    $(document).ready(function(){
+      $("#click").click(function(){
+        $("#replace").html("<p> You will need: <br> -2 Eggs <br> -Half a cup of milk <br> -Cinammon <br> -3 Slices of Bread</p>");
+      });
+
+      $("#clickHide").click(function(){
+        $("#replace").html("<p></p>");
+      });
+
+      $("#button1").click(function(){
+          $("#replace").html("<img src='images/eggs.jpg' width=470px> <p>Crack your eggs into the bowl and beat them along with your milk</p>");
+      });
+
+      $("#button2").click(function(){
+        $("#replace").html("<img src='images/Soaking.jpg' width=470px> <p>Soak your bread slices in the egg and milk mixture</p>");
+
+      });
+
+      $("#button3").click(function(){
+        $("#replace").html("<img src='images/frying.jpg' width=470px> <p>Fry your individual pieces of soaked bread on a hot skillet</p>");
+      });
+
+
+      $("#hover").mouseenter(function(){
+        $("#reveal").html("<img src='images/frenchtoast.jpg' width=470px>");
+
+      });
+
+      $("#hover").mouseleave(function(){
+        $("#reveal").hide();
+      });
+
+    });
+    </script>
+  </body>
+</html>

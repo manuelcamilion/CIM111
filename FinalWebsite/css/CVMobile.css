@@ -1,0 +1,43 @@
+@import "CVDesktop.css";
+
+h1{
+  font-size: 90px;
+  line-height: 80px;
+}
+
+h2{
+  font-size: 27px;
+  top:20px;
+}
+
+
+header nav{
+  margin-left: -50px;
+}
+
+header nav ul li{
+  margin-left: 10px;
+}
+
+nav ul li img{
+  margin-bottom: 40px;
+  width: 206px;
+}
+
+
+p{
+  margin-bottom: -40px;
+}
+
+h4{
+  margin-bottom: 70px;
+}
+
+#myVideo{
+
+  top: 150px;
+}
+
+footer{
+  top: -1000px;
+}

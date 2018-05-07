@@ -1,0 +1,169 @@
+
+
+body{
+  background-color: white;;
+  margin-bottom: -400px;
+}
+
+main{
+  background-color: rgb(23, 23, 23);
+  margin-left: 240px;
+  width: 1427px;
+}
+
+header{
+  margin-top:-16px;
+  margin-left: -10px;
+  margin-right: -8px;
+  height: 100px;
+  width: auto;
+  background-color: rgb(23, 23, 23);
+}
+
+h1{
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  position: relative;
+  top: 20xpx;
+  margin-top: px;
+  margin-bottom: -10px;
+
+
+}
+
+h2{
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  letter-spacing:6px;
+
+  position: relative;
+  top: -10px;
+}
+
+#myVideo{
+  position:relative;
+  top: -565px;
+  margin-left: -8px;
+  margin-top: -150px;
+  z-index: -1;
+}
+
+
+header nav{
+text-align: center;
+position: relative;
+top: 10px;
+}
+
+header nav ul{
+}
+
+header nav ul li{
+    margin-top: 30px;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 30px;
+  color: white;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+header nav ul li a:hover{
+  background-color: lightblue;
+}
+
+.whiteSpace{
+  width: 1915px;
+  height:50px;
+  background-color: white;
+  position: absolute;
+  top: 949px;
+  margin-left: -20px;
+}
+h3{
+  color: black;
+  font-size: 45px;
+  position: absolute;
+  top:900px;
+  left: 830px;
+}
+
+
+main nav{
+  position: absolute;
+    margin-left: -40px;
+    margin-bottom: -40px;
+ }
+main nav ul{
+
+
+}
+main nav ul li{
+    display: inline-grid;
+  list-style: none;
+
+
+}
+main nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+main nav ul li img{
+  text-decoration: none;
+  position: relative;
+  width: 473px;
+  height: auto;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+main nav ul li img:hover{
+  position: relative;
+  -webkit-filter: blur(8px) opacity(50%);
+  overflow: hidden;
+}
+
+h4{
+  position: relative;
+  top: -400px;
+  font-size: 40px;
+  left: 20px;
+  margin-bottom: 1px;
+}
+
+p{
+  position: relative;
+  top: -360px;
+  font-size: 30px;
+  left: 20px;
+  margin-bottom: -400px;
+}
+
+h6{
+
+  color: white;
+  font-size: 25px;
+  margin-left: 800px;
+  margin-bottom: -50px;
+  position:absolute;
+  top: -20px;
+
+}
+
+footer{
+  background-color: rgb(23, 23, 23);
+  height: 100px;
+  width: 1935px;
+  margin-left: -40px;
+  margin-bottom: -100px;
+  margin-top: -50px;
+  position: relative;
+  top: 1850px;
+
+}

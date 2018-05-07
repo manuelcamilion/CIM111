@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Travel to Argentina</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.tiltedpage-scroll.js"></script>
+    <script src="js/jquery.titledpage=scroll.min.js"></script>
+
+    <style>
+    h1{
+      text-align: center;
+    }
+
+    p{
+      text-align: center;
+    }
+    a{
+      text-decoration: none;
+    }
+    img{
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+
+    </style>
+  </head>
+  <body>
+
+    <h1>What to see in Argentina</h1>
+    <p>Argentina is home to a wide range of terrains, from freezing cold mountaintops to sunny beaches. A mass producer of wine, meats, and soy, Argentina is a Latin American country that has a rich culture that is often overlooked. Argentina shares a border with Chile, divided by the Andes mountain range which runs all the way down to the southern tip of the country, called Tierra del Fuego. The vast plains in the coutnry are home to many types of ranches, mostly focusing on the production of beef. Argentina's capital, Buenos Aires, is often labelled by people as being the "Paris of South America." It's beautiful cobblestone streets have been the birth place of many revolutions, and the all famous argentine tango.</p>
+
+    <div class="main">
+      <section class="page1">
+        <h2><a href="https://en.wikipedia.org/wiki/Bariloche">Bariloche is a cozy evergreen location with lakes and mountains</a></h2>
+        <img src="images/bariloche.jpg" width="1400px">
+      </section>
+      <section class="page2">
+        <h2><a href="https://en.wikipedia.org/wiki/Tierra_del_Fuego">Cold glaciers are Tierra del fuego's tag, being the area on earth closest to antarctica</a></h2>
+        <img src="images/glaciers.jpg" width="1400px">
+      </section>
+      <section class="page3">
+        <h2><a href="https://en.wikipedia.org/wiki/Iguazu_Falls">Iguazu Falls is the shared border between Argentina, Brazil, and Paraguay</a></h2>
+        <img src="images/iguazu.jpg" width="1400px">
+      </section>
+      <section class="page4">
+          <h2><a href="https://en.wikipedia.org/wiki/Andes">The Andes Mountains shares the border between Chile and Argentina</a></h2>
+          <img src="images/mountains.jpg" width="1400px">
+      </section>
+      <section class="last-page">
+        <h2><a href="https://en.wikipedia.org/wiki/Gaucho">The vast plains of Argentina are well known for the gaucho cattle herding</a></h2>
+        <img src="images/plains.jpg" width="1400px;">
+      </section>
+    </div>
+
+    <script>
+    $(".main").tiltedpage_scroll({
+       sectionContainer: "> section",     // In case you don't want to use <section> tag, you can define your won CSS selector here
+       angle: 50,                         // You can define the angle of the tilted section here. Change this to false if you want to disable the tilted effect. The default value is 50 degrees.
+       opacity: true,                     // You can toggle the opacity effect with this option. The default value is true
+       scale: true,                       // You can toggle the scaling effect here as well. The default value is true.
+       outAnimation: true                 // In case you do not want the out animation, you can toggle this to false. The defaul value is true.
+     });
+   </script>
+
+  </body>
+</html>

@@ -2,14 +2,14 @@
 <html lang="en" dir="ltr">
   <head>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <title>How to -</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <title>How to Make French Toast</title>
+
     <style>
     .box{
       width: 100px;
-      height: 30px;
-      background-color: aqua;
-      margin-bottom: 20px;
+      height: 100px;
+      background-color: black;
     }
 
     </style>
@@ -17,28 +17,53 @@
   </head>
   <body>
 
-    <div class="box" id="box1"></div>
-    <div class="box" id="box2">Click here to show</div>
-    <div class="box" id="box3"> Click here to hide</div>
+    <h1>How to Make French Toast</h1>
 
-    <div id="box2info"><p>This is box2 info</p></div>
+    <div id="click">Click to show Ingredients</div>
+
+    <div id="clickShow">Click here to Show</div>
+
+    <div id="clickBox" class="box"></div>
+
+    <div id="hover">Hover here</div>
+       <div id="hoverBox" class="box"></div>
+
+
     <script>
+
     $(document).ready(function(){
 
-      $("#box1").html("<h1>Hello</h1>");
-      $("#box2info").hide();
-      $("#box7info").hide();
+      $(".box").css("background-color", "blue");
 
-      $("#box2").click(function(){
-        $("#box2info").show();
+      $("#clickBox").hide();
+
+
+      $("#click").click(function(){
+
+          $("#clickBox").show();
+
       });
 
-      $("#box3").click(function(){
-        $("#box2info").hide();
+
+
+      $("#clickShow").click(function(){
+
+        $("#clickBox").show();
+        $("#clickBox").css("background-color", "red");
+
+      });
+
+      $("#hover").mouseenter(function(){
+        $("#hoverBox").hide();
+      })
+      $("#hover").mouseleave(function(){
+        $("#hoverBox").show();
       });
 
 
     });
     </script>
+
+
   </body>
 </html>
